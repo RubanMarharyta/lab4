@@ -5,9 +5,10 @@ class Note:
         Note.note_list.append(note)
 
     def show():
-        if Note.check():
-            for i in range(len(Note.note_list)):
-                print(str(i + 1) + "." + " " + Note.note_list[i], sep='\n')
+        #if Note.check():
+            #for i in range(len(Note.note_list)):
+            #    print(str(i + 1) + "." + " " + Note.note_list[i], sep='\n')
+            return 0
 
     def edit(num, note):
         Note.note_list[int(num) - 1] = note
