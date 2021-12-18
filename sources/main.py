@@ -14,9 +14,6 @@ while 1:
         print('enter something')
         continue
 
-    if act.split('-')[0] == 'save':
-        a = Note.add(act.split('-')[1])
-
     elif act.split('-')[0] == 'show':
         Note.show()
 
